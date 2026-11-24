@@ -1,0 +1,54 @@
+# ── Secrets ───────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.egg-info/
+
+# ── ML artifacts & data (never commit datasets or weights) ─
+backend/ml_artifacts/
+ml/**/data/
+ml/**/checkpoints/
+*.onnx
+*.joblib
+*.pth
+*.pt
+*.ckpt
+
+# ── Node / Expo / Vite ────────────────────────────────────
+node_modules/
+.expo/
+dist/
+build/
+web-build/
+*.tsbuildinfo
+npm-debug.log*
+
+# ── Editor / OS ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# ── Local runtime data (demo DB & uploaded photos) ────────
+*.db
+*.sqlite3
+backend/storage/
+
+# ── Logs / temp ───────────────────────────────────────────
+*.log
+tmp/
+uploads/

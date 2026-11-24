@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kisan Sathi">
+  <defs>
+    <linearGradient id="ks-leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#57C48A"/>
+      <stop offset="1" stop-color="#0B6B45"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#0B2E22"/>
+  <path d="M13 49h38" stroke="#E8EFE4" stroke-opacity="0.22" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M16 43h32" stroke="#E8EFE4" stroke-opacity="0.16" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M32 47V26" stroke="url(#ks-leaf)" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M32 33c0-7.5-5.4-11.6-12.6-11.6 0 7.5 5.4 11.6 12.6 11.6Z" fill="url(#ks-leaf)"/>
+  <path d="M32 27.5c0-6.4 4.4-10.4 10.6-10.4 0 6.4-4.4 10.4-10.6 10.4Z" fill="#8FE0B4"/>
+</svg>
